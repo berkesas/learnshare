@@ -1,0 +1,6 @@
+[{
+      "source": "server",
+      "text": "This is a sample chatbot message for testing purposes. We can think of chatbot server each time responding with a JSON file. We will develop the backend coding in the future.",
+      "created": "2024-08-15T00:44:49.103803",
+      "additionalQuestions": ["This is a sample recommended question?"]
+}]
