@@ -1,0 +1,93 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "proposable": false,
+            "patterns": [
+                "Hi",
+                "Hey"
+            ],
+            "responses": [
+                "Hello",
+                "Hi"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "proposable": false,
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "proposable": false,
+            "patterns": [
+                "Thank you",
+                "Thanks"
+            ],
+            "responses": [
+                "You're welcome! Thanks for visiting!",
+                "You are welcome! Thanks for exploring my website!"
+            ]
+        },
+        {
+            "tag": "originplace",
+            "proposable": true,
+            "patterns": [
+                "Where are you from?"
+            ],
+            "responses": [
+                "I am originally from Wakanda and I lived in many different places including Panem, Themyscira, and Pandora."
+            ]
+        },
+        {
+            "tag": "currentplace",
+            "proposable": true,
+            "patterns": [
+                "Where do you live?"
+            ],
+            "responses": [
+                "I currently live in the Greater Zubrovka area."
+            ]
+        },
+        {
+            "tag": "cofee",
+            "proposable": false,
+            "patterns": [
+                "Do you like coffee?"
+            ],
+            "responses": [
+                "Yes, I like coffee. But only good quality."
+            ]
+        },
+        {
+            "tag": "food",
+            "proposable": false,
+            "patterns": [
+                "What kind of food do you like?"
+            ],
+            "responses": [
+                "I like traditional food, rice, meat, and bakeries."
+            ]
+        },
+        {
+            "tag": "car",
+            "proposable": false,
+            "patterns": [
+                "What is your favorite car?"
+            ],
+            "responses": [
+                "I like sedan size cars."
+            ]
+        }
+    ]
+}
